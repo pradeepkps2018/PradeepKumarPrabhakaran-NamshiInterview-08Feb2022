@@ -1,0 +1,25 @@
+{
+    "name": "pradeepkps2018/newsapi",
+    "description": "A Namshi client for NewsApi",
+    "keywords": ["NewsApi"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pradeep KNPY",
+            "email": "pradeepknpy@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pradeepkps2018\\NewsApi\\": "src/"
+        }
+    }
+}
